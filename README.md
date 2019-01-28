@@ -1,2 +1,2 @@
 # golab
-> Just a lab for go
+> Just a lab for go.
