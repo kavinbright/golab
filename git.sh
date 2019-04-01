@@ -1,9 +1,8 @@
 #! /bin/bash
-echo "start checkout fetch merge push and checkout back..."
-git checkout master
+
+git checkout $1
 git fetch
-git merge origin/master
-git merge origin/company
-git push origin master
-git checkout company
-echo "end"
+git merge origin/$1
+git merge origin/$2
+git push origin $1
+git checkout $2
